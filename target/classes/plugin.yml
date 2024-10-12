@@ -1,0 +1,5 @@
+name: Libraries
+version: '1.0-SNAPSHOT'
+main: me.hieu.libraries.Libraries
+api-version: '1.21'
+loadbefore: [Core]
