@@ -4,6 +4,7 @@ import me.hieu.libraries.menu.Button;
 import me.hieu.libraries.menu.callback.Callback;
 import me.hieu.libraries.util.CC;
 import me.hieu.libraries.util.ItemBuilder;
+import me.hieu.libraries.util.TaskUtil;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
@@ -39,7 +40,7 @@ public class BooleanButton extends Button {
         } else {
             playFail(player);
         }
-        player.closeInventory();
+        TaskUtil.runTask(player::closeInventory);
         this.callback.callback(this.confirm);
     }
 
