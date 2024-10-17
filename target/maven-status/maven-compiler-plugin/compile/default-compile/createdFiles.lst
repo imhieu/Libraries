@@ -42,6 +42,7 @@ me\hieu\libraries\assemble\AssembleBoard.class
 me\hieu\libraries\menu\MenuListener.class
 me\hieu\libraries\drink\annotation\Classifier.class
 me\hieu\libraries\drink\argument\CommandArg.class
+me\hieu\libraries\util\SkullBuilder.class
 me\hieu\libraries\menu\menus\ConfirmMenu.class
 me\hieu\libraries\assemble\AssembleBoardEntry.class
 me\hieu\libraries\assemble\AssembleException.class
