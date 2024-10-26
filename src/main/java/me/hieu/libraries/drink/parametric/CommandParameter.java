@@ -1,8 +1,8 @@
 package me.hieu.libraries.drink.parametric;
 
 import com.google.common.collect.ImmutableList;
-import me.hieu.libraries.drink.annotation.*;
 import lombok.Getter;
+import me.hieu.libraries.drink.annotation.*;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Parameter;

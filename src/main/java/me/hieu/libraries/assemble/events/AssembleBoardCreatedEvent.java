@@ -1,8 +1,8 @@
 package me.hieu.libraries.assemble.events;
 
-import me.hieu.libraries.assemble.AssembleBoard;
 import lombok.Getter;
 import lombok.Setter;
+import me.hieu.libraries.assemble.AssembleBoard;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 

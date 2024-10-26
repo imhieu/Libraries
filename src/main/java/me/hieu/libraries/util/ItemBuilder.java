@@ -8,6 +8,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
+import org.bukkit.inventory.meta.PotionMeta;
+import org.bukkit.potion.PotionType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,8 +82,10 @@ public class ItemBuilder implements Listener {
         return this;
     }
 
-    public ItemBuilder durability(int durability) {
-        is.setDurability((short) durability);
+    public ItemBuilder potion(PotionType type) {
+        PotionMeta potionMeta = (PotionMeta) is.getItemMeta();
+        potionMeta.setBasePotionType(type);
+        is.setItemMeta(potionMeta);
         return this;
     }
 

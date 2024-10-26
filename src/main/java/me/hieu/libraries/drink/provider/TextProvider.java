@@ -7,7 +7,6 @@ import me.hieu.libraries.drink.parametric.DrinkProvider;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.lang.annotation.Annotation;
-import java.util.Collections;
 import java.util.List;
 
 public class TextProvider extends DrinkProvider<String> {

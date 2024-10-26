@@ -4,12 +4,10 @@ import me.hieu.libraries.drink.argument.CommandArg;
 import me.hieu.libraries.drink.argument.CommandArgs;
 import me.hieu.libraries.drink.exception.CommandExitMessage;
 import me.hieu.libraries.drink.parametric.DrinkProvider;
-import org.bukkit.command.CommandSender;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.lang.annotation.Annotation;
-import java.util.Collections;
 import java.util.List;
 
 public class CommandArgsProvider extends DrinkProvider<CommandArgs> {

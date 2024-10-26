@@ -1,11 +1,11 @@
 package me.hieu.libraries.drink.command;
 
+import lombok.Getter;
 import me.hieu.libraries.drink.exception.CommandStructureException;
 import me.hieu.libraries.drink.exception.MissingProviderException;
 import me.hieu.libraries.drink.parametric.CommandParameter;
 import me.hieu.libraries.drink.parametric.CommandParameters;
 import me.hieu.libraries.drink.parametric.DrinkProvider;
-import lombok.Getter;
 
 import java.lang.reflect.Method;
 import java.util.Set;

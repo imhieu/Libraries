@@ -1,7 +1,8 @@
 package me.hieu.libraries.assemble;
 
-import java.util.List;
 import org.bukkit.entity.Player;
+
+import java.util.List;
 
 public interface AssembleAdapter {
 

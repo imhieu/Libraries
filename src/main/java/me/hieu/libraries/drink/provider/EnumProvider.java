@@ -5,7 +5,6 @@ import me.hieu.libraries.drink.argument.CommandArg;
 import me.hieu.libraries.drink.exception.CommandExitMessage;
 import me.hieu.libraries.drink.parametric.DrinkProvider;
 import org.apache.commons.lang3.StringUtils;
-import org.bukkit.command.CommandSender;
 
 import javax.annotation.Nonnull;
 import java.lang.annotation.Annotation;

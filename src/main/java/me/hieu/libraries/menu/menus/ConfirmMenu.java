@@ -22,7 +22,7 @@ public class ConfirmMenu extends Menu {
         buttons.put(11, new BooleanButton(true, this.response));
         buttons.put(15, new BooleanButton(false, this.response));
         for (int i = 0; i < 27; ++i) {
-            buttons.putIfAbsent(i, Button.placeholder(Material.LEGACY_STAINED_GLASS_PANE, (byte)15));
+            buttons.putIfAbsent(i, Button.placeholder(Material.BLACK_STAINED_GLASS_PANE, ""));
         }
         return buttons;
     }

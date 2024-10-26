@@ -1,7 +1,7 @@
 package me.hieu.libraries.drink.command;
 
-import me.hieu.libraries.drink.argument.CommandArgs;
 import lombok.Getter;
+import me.hieu.libraries.drink.argument.CommandArgs;
 import org.bukkit.command.CommandSender;
 
 import java.util.List;

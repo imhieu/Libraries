@@ -2,8 +2,6 @@ package me.hieu.libraries.util;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.block.Skull;
-import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
@@ -22,7 +20,7 @@ public class SkullBuilder {
     private final SkullMeta meta;
 
     public SkullBuilder(String name) {
-        this.stack = new ItemStack(Material.LEGACY_SKULL_ITEM, 1, (byte)3);
+        this.stack = new ItemStack(Material.PLAYER_HEAD, 1);
         this.meta = (SkullMeta) stack.getItemMeta();
         this.meta.setOwningPlayer(Bukkit.getOfflinePlayer(name));
     }

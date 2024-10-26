@@ -1,6 +1,7 @@
 package me.hieu.libraries.drink.command;
 
 import com.google.common.base.Preconditions;
+import lombok.Getter;
 import me.hieu.libraries.drink.CommandService;
 import me.hieu.libraries.drink.annotation.Duration;
 import me.hieu.libraries.drink.annotation.Sender;
@@ -20,7 +21,6 @@ import me.hieu.libraries.drink.provider.spigot.CommandSenderProvider;
 import me.hieu.libraries.drink.provider.spigot.ConsoleCommandSenderProvider;
 import me.hieu.libraries.drink.provider.spigot.PlayerProvider;
 import me.hieu.libraries.drink.provider.spigot.PlayerSenderProvider;
-import lombok.Getter;
 import org.apache.commons.lang3.StringUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

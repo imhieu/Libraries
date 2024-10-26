@@ -1,8 +1,8 @@
 package me.hieu.libraries.assemble;
 
+import lombok.Getter;
 import me.hieu.libraries.assemble.events.AssembleBoardCreateEvent;
 import me.hieu.libraries.assemble.events.AssembleBoardDestroyEvent;
-import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -24,7 +24,7 @@ public class AssembleListener implements Listener {
 		this.assemble = assemble;
 	}
 
-	@EventHandler(priority = EventPriority.LOWEST)
+	@EventHandler(priority = EventPriority.HIGHEST)
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		// Call Events if enabled.
 		if (assemble.isCallEvents()) {

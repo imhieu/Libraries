@@ -1,9 +1,9 @@
 package me.hieu.libraries.drink.argument;
 
 import com.google.common.base.Preconditions;
+import lombok.Getter;
 import me.hieu.libraries.drink.command.CommandFlag;
 import me.hieu.libraries.drink.command.DrinkCommandService;
-import lombok.Getter;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 

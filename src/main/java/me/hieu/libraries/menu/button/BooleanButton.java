@@ -30,7 +30,7 @@ public class BooleanButton extends Button {
             lore.add(CC.translate("&cClick here to cancel"));
             lore.add(CC.translate("&cthe procedure action."));
         }
-        return new ItemBuilder(Material.LEGACY_WOOL).name(this.confirm ? CC.translate("&a&lConfirm") : CC.translate("&c&lCancel")).lore(lore).durability(this.confirm ? (byte) 5 : 14).build();
+        return new ItemBuilder(this.confirm ? Material.LIME_WOOL : Material.RED_WOOL).name(this.confirm ? CC.translate("&a&lConfirm") : CC.translate("&c&lCancel")).lore(lore).build();
     }
 
     @Override

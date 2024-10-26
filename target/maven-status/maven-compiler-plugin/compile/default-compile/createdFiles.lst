@@ -19,6 +19,7 @@ me\hieu\libraries\menu\Menu.class
 me\hieu\libraries\drink\command\DrinkHelpService.class
 me\hieu\libraries\menu\pagination\PageButton.class
 me\hieu\libraries\drink\command\DrinkAuthorizer.class
+me\hieu\libraries\util\TimeUtil.class
 me\hieu\libraries\drink\command\DrinkCommand.class
 me\hieu\libraries\drink\command\DrinkTabCompleter.class
 me\hieu\libraries\drink\provider\DurationProvider.class
@@ -49,6 +50,7 @@ me\hieu\libraries\assemble\AssembleException.class
 me\hieu\libraries\drink\annotation\LastArg.class
 me\hieu\libraries\drink\argument\ArgumentParser.class
 me\hieu\libraries\drink\provider\InstanceProvider.class
+me\hieu\libraries\util\SoundUtil.class
 me\hieu\libraries\drink\parametric\DrinkProvider.class
 me\hieu\libraries\assemble\events\AssembleBoardDestroyEvent.class
 me\hieu\libraries\drink\modifier\DrinkModifier.class

@@ -4,7 +4,6 @@ import me.hieu.libraries.drink.argument.CommandArg;
 import me.hieu.libraries.drink.exception.CommandExitMessage;
 import me.hieu.libraries.drink.parametric.DrinkProvider;
 import org.bukkit.Bukkit;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
@@ -13,7 +12,6 @@ import javax.annotation.Nullable;
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class PlayerProvider extends DrinkProvider<Player> {
 
