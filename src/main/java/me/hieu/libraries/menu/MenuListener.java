@@ -49,7 +49,6 @@ public class MenuListener implements Listener {
 					openMenu.openMenu(player);
 				}
 				if (event.isCancelled()) {
-					//Bukkit.getScheduler().runTaskLater(Libraries.getInstance(), player::updateInventory, 1L);
 					TaskUtil.runTaskAsync(player::updateInventory);
 				}
 			} else {
